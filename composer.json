@@ -1,0 +1,30 @@
+{
+  "name": "moiseskiakanda/watu",
+  "description": "Plano de Acção de Reassentamento do Projecto da Linha de Transmissão WATU EJC",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Moises Kiakanda",
+      "email": "moisesmose@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "2.0.*",
+    "phpoffice/phpspreadsheet": "1.29.*",
+    "tecnickcom/tcpdf": "6.6.*",
+    "ext-pdo": "*"
+  }
+}
